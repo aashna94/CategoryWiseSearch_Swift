@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43591BD523F2B147009C12E6 /* JRWPBGenericFilterTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43591BD423F2B147009C12E6 /* JRWPBGenericFilterTableCell.swift */; };
+		43591BD723F2B252009C12E6 /* JRWPBFilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43591BD623F2B252009C12E6 /* JRWPBFilterCollectionViewCell.swift */; };
+		43591BD923F2CDCB009C12E6 /* JRWPBFilterHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43591BD823F2CDCB009C12E6 /* JRWPBFilterHeaderCell.swift */; };
+		43591C1723F3C56B009C12E6 /* JRWPBFilterCollectionViewContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43591C1623F3C56A009C12E6 /* JRWPBFilterCollectionViewContactCell.swift */; };
+		43591C1923F3C77E009C12E6 /* JRWPBContactFilterTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43591C1823F3C77E009C12E6 /* JRWPBContactFilterTableCell.swift */; };
 		4367008F23F296C400A153FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4367008E23F296C400A153FE /* AppDelegate.swift */; };
-		4367009123F296C400A153FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4367009023F296C400A153FE /* ViewController.swift */; };
+		4367009123F296C400A153FE /* JRWPBFilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4367009023F296C400A153FE /* JRWPBFilterVC.swift */; };
 		4367009423F296C400A153FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4367009223F296C400A153FE /* Main.storyboard */; };
 		4367009623F296C600A153FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4367009523F296C600A153FE /* Assets.xcassets */; };
 		4367009923F296C600A153FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4367009723F296C600A153FE /* LaunchScreen.storyboard */; };
 		436700A423F296C600A153FE /* PassbookRevampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436700A323F296C600A153FE /* PassbookRevampTests.swift */; };
 		436700AF23F296C600A153FE /* PassbookRevampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436700AE23F296C600A153FE /* PassbookRevampUITests.swift */; };
+		436700BD23F296F400A153FE /* JRWPBFilterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436700BC23F296F400A153FE /* JRWPBFilterVM.swift */; };
+		439148F0241A1607001E75B7 /* TestTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439148EF241A1607001E75B7 /* TestTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43591BD423F2B147009C12E6 /* JRWPBGenericFilterTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRWPBGenericFilterTableCell.swift; sourceTree = "<group>"; };
+		43591BD623F2B252009C12E6 /* JRWPBFilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRWPBFilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		43591BD823F2CDCB009C12E6 /* JRWPBFilterHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRWPBFilterHeaderCell.swift; sourceTree = "<group>"; };
+		43591C1623F3C56A009C12E6 /* JRWPBFilterCollectionViewContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRWPBFilterCollectionViewContactCell.swift; sourceTree = "<group>"; };
+		43591C1823F3C77E009C12E6 /* JRWPBContactFilterTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRWPBContactFilterTableCell.swift; sourceTree = "<group>"; };
 		4367008B23F296C400A153FE /* PassbookRevamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassbookRevamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4367008E23F296C400A153FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4367009023F296C400A153FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4367009023F296C400A153FE /* JRWPBFilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRWPBFilterVC.swift; sourceTree = "<group>"; };
 		4367009323F296C400A153FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4367009523F296C600A153FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4367009823F296C600A153FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +59,8 @@
 		436700AA23F296C600A153FE /* PassbookRevampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassbookRevampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436700AE23F296C600A153FE /* PassbookRevampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassbookRevampUITests.swift; sourceTree = "<group>"; };
 		436700B023F296C600A153FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436700BC23F296F400A153FE /* JRWPBFilterVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRWPBFilterVM.swift; sourceTree = "<group>"; };
+		439148EF241A1607001E75B7 /* TestTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +112,18 @@
 			isa = PBXGroup;
 			children = (
 				4367008E23F296C400A153FE /* AppDelegate.swift */,
-				4367009023F296C400A153FE /* ViewController.swift */,
+				4367009023F296C400A153FE /* JRWPBFilterVC.swift */,
+				439148EF241A1607001E75B7 /* TestTable.swift */,
 				4367009223F296C400A153FE /* Main.storyboard */,
 				4367009523F296C600A153FE /* Assets.xcassets */,
 				4367009723F296C600A153FE /* LaunchScreen.storyboard */,
 				4367009A23F296C600A153FE /* Info.plist */,
+				436700BC23F296F400A153FE /* JRWPBFilterVM.swift */,
+				43591BD423F2B147009C12E6 /* JRWPBGenericFilterTableCell.swift */,
+				43591BD623F2B252009C12E6 /* JRWPBFilterCollectionViewCell.swift */,
+				43591BD823F2CDCB009C12E6 /* JRWPBFilterHeaderCell.swift */,
+				43591C1623F3C56A009C12E6 /* JRWPBFilterCollectionViewContactCell.swift */,
+				43591C1823F3C77E009C12E6 /* JRWPBContactFilterTableCell.swift */,
 			);
 			path = PassbookRevamp;
 			sourceTree = "<group>";
@@ -256,7 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4367009123F296C400A153FE /* ViewController.swift in Sources */,
+				43591BD723F2B252009C12E6 /* JRWPBFilterCollectionViewCell.swift in Sources */,
+				43591C1923F3C77E009C12E6 /* JRWPBContactFilterTableCell.swift in Sources */,
+				43591C1723F3C56B009C12E6 /* JRWPBFilterCollectionViewContactCell.swift in Sources */,
+				4367009123F296C400A153FE /* JRWPBFilterVC.swift in Sources */,
+				43591BD923F2CDCB009C12E6 /* JRWPBFilterHeaderCell.swift in Sources */,
+				439148F0241A1607001E75B7 /* TestTable.swift in Sources */,
+				436700BD23F296F400A153FE /* JRWPBFilterVM.swift in Sources */,
+				43591BD523F2B147009C12E6 /* JRWPBGenericFilterTableCell.swift in Sources */,
 				4367008F23F296C400A153FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
